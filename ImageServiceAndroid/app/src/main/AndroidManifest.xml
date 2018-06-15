@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--our android service-->
+        <service android:name =".ImageServiceService"  android:exported="false"></service>
     </application>
+    <!--internet permission-->
+    <uses-permission  android:name="android.permission.INTERNET"  />
+
+
+
 
 </manifest>
