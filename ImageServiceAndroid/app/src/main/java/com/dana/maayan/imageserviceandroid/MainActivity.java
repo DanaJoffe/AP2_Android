@@ -13,14 +13,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * called when button is pressed - starts ImageServiceService
+     * @param view a view
+     */
     public void startService(View view){
         Intent intent = new Intent(this, ImageServiceService.class);
         startService(intent);
     }
 
+    /**
+     * called when button is pressed - destroys ImageServiceService
+     * @param view a view
+     */
     public void stopService(View view){
         Intent intent = new Intent(this, ImageServiceService.class);
         stopService(intent);
     }
-
 }

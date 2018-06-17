@@ -21,8 +21,6 @@
     </application>
     <!--internet permission-->
     <uses-permission  android:name="android.permission.INTERNET"  />
-
-
-
-
+    <!--the permission to read from the file system internet permission-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>
